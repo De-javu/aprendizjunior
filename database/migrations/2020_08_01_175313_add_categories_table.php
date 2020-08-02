@@ -12,6 +12,7 @@ class AddCategoriesTable extends Migration
      * @return void
      */
     public function up()
+   
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->increments('id');
