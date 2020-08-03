@@ -4,7 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Tag extends Model
+class tag extends Model
 {
-    //
+    protected $table = "tags";
+
+    protected $fillable = ['name'];
+
 }
