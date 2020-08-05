@@ -21,7 +21,7 @@
 
                     {{ __('You are logged in!') }}
                     <div>
-                         <h1>hola mundo</h1>
+                         <h1>welcome</h1>
                          <a href=""class ="btn btn-success">boton</a>
                         </div>
                 </div>
