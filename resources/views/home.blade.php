@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @include('admin.template.partials.nav')
 
+
+
 @section('content')
 <div class="container">
 
