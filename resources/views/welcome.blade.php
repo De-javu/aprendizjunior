@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -82,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Merca todo
+                    Laravel
                 </div>
 
                 <div class="links">
