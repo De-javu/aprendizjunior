@@ -16,5 +16,10 @@ npm run dev
 *********************************************************************************************
 6)## ahora vamos a configurar la base para la creacion de un campo adicional como el apellido: en el la tabla de migracion de User.
 *********************************************************************************************
-7)##
+7)## hacemos un refresh para pasar a la base de datos:
+ php artisan migrate:refresh
+*********************************************************************************************
+8)## ubicamos el archivo register.blade.php , en este archivo clonamos la vista de noimbre para el apelledo.
+*********************************************************************************************
+9)
 
