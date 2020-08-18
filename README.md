@@ -19,7 +19,10 @@ npm run dev
 7)## hacemos un refresh para pasar a la base de datos:
  php artisan migrate:refresh
 *********************************************************************************************
-8)## ubicamos el archivo register.blade.php , en este archivo clonamos la vista de noimbre para el apelledo.
+8)## ubicamos el archivo register.blade.php , en este archivo clonamos la vista de nombre para usar la en el  apelledo.
 *********************************************************************************************
-9)
+9)## ahora vamos a RegistrerController.php actualizamos los campos por los que estamos utilizando para nuestro formilario de registro 
+*********************************************************************************************
+10)## rn rl archivo User.php  modificamos protected $fillable actualizamos los campos co losdel registroi que se va utilizar de lo contrario no genera el registro en nuestra base.
+********************************************************************************************  
 
